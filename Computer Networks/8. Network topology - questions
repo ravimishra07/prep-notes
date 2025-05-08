@@ -1,0 +1,153 @@
+# 🔧 Lecture 8: Topology-Based Problems – Flash Notes
+
+## ✅ Outcomes
+
+* Determine cables and ports needed for each topology
+* Understand basic traffic-related performance in topologies
+
+---
+
+## 🔄 Quick Recap of Topologies
+
+| Topology | Key Feature                       |
+| -------- | --------------------------------- |
+| Bus      | Common transmission line          |
+| Ring     | Closed loop, unidirectional       |
+| Star     | Central hub/switch                |
+| Mesh     | Each node connected to all others |
+| Hybrid   | Combination of two or more above  |
+
+---
+
+## 🔢 Cable & Port Formulas
+
+### 🔸 Ring Topology
+
+* **Cables**: `n`
+* **Ports per device**: 2
+* **Total Ports**: `2 × n`
+
+### 🔸 Star Topology
+
+* **Cables**: `n`
+* **Ports per device**: 1 + central device with `n` ports
+* **Total Ports**: `2 × n`
+
+### 🔸 Mesh Topology (Full)
+
+* **Cables**: `n × (n - 1) / 2`
+* **Ports per device**: `n - 1`
+* **Total Ports**: `n × (n - 1)`
+
+---
+
+## 🧠 Example Problem 1 – Ring Topology
+
+**Given**: 6 nodes
+**Find**:
+
+* Cables = 6
+* Ports per device = 2
+* Total Ports = `6 × 2 = 12`
+
+---
+
+## 🧠 Example Problem 2 – Traffic Efficiency
+
+**Q**: In which topology is traffic congestion minimal?
+**Ans**: **Mesh Topology** (dedicated lines, no shared traffic)
+
+---
+
+## 🧠 Example Problem 3 – Star Topology
+
+**Given**: 5 nodes
+
+* **Cables** = 5
+* **Ports per device** = 1
+* **Central hub/switch** = 5 ports
+* **Total Ports** = `2 × 5 = 10`
+
+---
+
+## 🏠 Homework Problem – Mesh Topology
+
+**Given**: 6 nodes in mesh topology
+**Find**:
+
+* Cables = `6 × (6 - 1) / 2 = 15`
+* Ports per device = `6 - 1 = 5`
+* Total Ports = `6 × 5 = 30`
+
+---
+
+## 🔁 Summary
+
+* Use formulas to scale quickly for large networks
+* Mesh = Best for performance, worst for cost
+* Star = Easy to implement, centralized risk
+* Ring = Balanced but unidirectional and fragile
+
+End of Lecture 8 ✅
+---------
+Let’s break it down clearly. You have 6 nodes in a full mesh topology. Here’s how we calculate:
+
+⸻
+
+🔧 1. Number of Cables
+
+✅ Formula:
+
+\text{Number of Cables} = \frac{n(n - 1)}{2}
+
+✅ Why this works:
+
+In a full mesh, each node connects directly to every other node.
+So for n nodes, you are selecting pairs of nodes (like a handshake), and there are n choose 2 = \frac{n(n-1)}{2} such unique pairs.
+
+🔢 Example (n = 6):
+
+\frac{6(6 - 1)}{2} = \frac{6 \times 5}{2} = 15 \text{ cables}
+
+⸻
+
+🔌 2. Number of Ports per Device
+
+✅ Formula:
+
+\text{Ports per Device} = n - 1
+
+✅ Why this works:
+
+Each node connects to every other node — so it needs n - 1 ports (one for each connection).
+
+🔢 Example (n = 6):
+
+6 - 1 = 5 \text{ ports per node}
+
+⸻
+
+🧮 3. Total Ports in the Network
+
+✅ Formula:
+
+\text{Total Ports} = n \times (n - 1)
+
+✅ Why this works:
+
+You calculated n - 1 ports per device, and there are n devices. So total = all devices × their ports.
+
+Also: Since every cable connects two ports, and we have 15 cables, the total ports = 15 × 2 = 30 — matches the above.
+
+🔢 Example (n = 6):
+
+6 \times (6 - 1) = 6 \times 5 = 30 \text{ total ports}
+
+⸻
+
+✅ Final Answer:
+	•	Cables: 15
+	•	Ports per device: 5
+	•	Total ports in the network: 30
+
+Let me know if you want visual diagrams or want to test with a different value of n.
