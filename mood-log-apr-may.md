@@ -14,6 +14,6 @@
 | 2025-05-06 | Stable with brief emotional intensity       | 6     | Clarity, frustration, peace, groundedness   | Met Tanvi, ended the loop calmly; executed Tutor App tasks with focus.  |
 | 2025-05-07 | Fluctuating between focused, fragile, and calm | 5   | Intense but grounded by end of day          | Structured DSA and Tutor App work, emotional turbulence stabilized post-nap. |
 | 2025-05-08 | Calm with piercing clarity                  | 7     | Conviction with controlled acceptance       | The crash is inevitable — but what survives it is what matters.         |
-| 2025-05-09 | Neutral-flattened                           | 4     | Fogged, cracked awareness                   | Watched Touched with Fire → didn’t destabilize, but added ache.         |
-| 2025-05-10 | Neutral to grounded                         | 6     | Reflective with resolved intent             | Started with resistance and fatigue post-tuition.                       |
-| 2025-05-11 | Stable but resistant                        | 6     | Sharp, untrusting                           | Woke up stable. Doubted future. Explored house loan math.              |
+| 2025-05-09 | Neutral-flattened                           | 4     | Fogged, cracked awareness                   | Felt down didn’t destabilize, but added ache.         |
+| 2025-05-10 | Neutral to grounded                         | 6     | Reflective with resolved intent             |Finished the book unquite mind,Started with resistance and fatigue post-tuition.                        |
+| 2025-05-11 | Stable but resistant                        | 6     | Sharp, untrusting                           | Woke up stable. Doubted future. Explored lon repayment loan math.              |
